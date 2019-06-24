@@ -1,0 +1,178 @@
+/*Imported Fonts*/
+@font-face {
+    font-family: 'TrajanPro-Regular';
+    src: url(fonts/TrajanPro-Regular.woff);
+}
+
+/*Imported Fonts*/
+@font-face {
+    font-family: 'UniCode';
+    src: url(fonts/unicode.rockwebb.ttf);
+}
+
+/*Setting Background Image*/
+html {
+    background-attachment: fixed;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Giving The Nav, Footer and Section A Position, Background Gradient and Border*/
+nav,
+footer,
+section {
+    background-image: linear-gradient(to right, #b0b0b0, #c8c8c8);
+    border: 15px solid grey;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*Changing The Font, Font Size and Position of The Prices Underneath The Watches*/
+.prices {
+    font-family: 'UniCode';
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+/*Changing The Font, Font Size and Position of Most Of The Text In The Website*/
+.text {
+    font-family: 'UniCode';
+    font-size: 17px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+/*Changing The Font, Font Size and Position of Other Text In The Website*/
+.text2 {
+    font-family: 'UniCode';
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+/*Changing The Font, Font Size, Position and Shadow of The Main Headings On Each Page*/
+section h1 {
+    font-family: 'TrajanPro-Regular';
+    font-size: 45px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-shadow: -3px 3px 7px rgb(50, 50, 50);
+}
+
+/*Aligning The Links In The Center of The Nav and Removing The Bottom Border of The Nav*/
+nav {
+    border-bottom: none;
+    text-align: center;
+}
+
+/*Changing The Font Colour and Adding A Text Shadow To The Links When You Put The Mouse Over Them*/
+nav a:hover,
+section a:hover {
+    color: white;
+    text-shadow: -3px 3px 5px rgb(50, 50, 50);
+}
+
+/*Aligning The Logo In The Middle of The Page*/
+.logo {
+    text-align: center;
+}
+
+/*Giving An Outer Glow To The Image and Setting The Height of The Logo*/
+.logo img {
+    height: 116px;
+    -webkit-filter: drop-shadow(0px 0px 5px white);
+    filter: drop-shadow(0px 0px 5px white);
+}
+
+/*Removing The Top Border of The Footer, Changing The Font, Font Size, Setting The Height and Aligning The Text In The Middle*/
+footer {
+    border-top: none;
+    font-family: 'TrajanPro-Regular';
+    font-size: 20px;
+    height: 10%;
+    max-height: 10%;
+    text-align: center;
+}
+
+/*Setting The Colour, Font, Font Size and Position of the Links In The Navigation and The Links In The Section. Also Removes Underline From Links*/
+nav a,
+section a {
+    color: black;
+    font-family: 'TrajanPro-Regular';
+    font-size: 40px;
+    padding: 0% 3% 0% 3%;
+    text-decoration: none;
+}
+
+/*Aligning The Text In The Center of The Section*/
+section {
+    text-align: center;
+}
+
+/*Removing All Padding From The Watch On The Home Page*/
+.homePageProduct {
+    padding: 0px;
+}
+
+/*Giving The Watch On The Home Page A Shadow, Setting The Height, Padding and Margin*/
+.homePageProduct img {
+    -webkit-filter: drop-shadow(-20px 20px 2px rgb(50, 50, 50));
+    filter: drop-shadow(-20px 20px 2px rgb(50, 50, 50));
+    height: 100%;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/*Sets The Display Function As Well As Sets The Right Margin*/
+.footerText {
+    display: inline-block;
+    margin-right: 35%;
+}
+
+/*Makes The Footer Text Float Right, Sets The Padding*/
+.footerText p {
+    float: right;
+    padding-left: 0%;
+    padding-top: 7px;
+}
+
+/*Makes The Footer Image Float Left, Sets The Height, Margin and Padding*/
+.footerImg img {
+    float: left;
+    height: 60px;
+    margin-left: 40%;
+    margin-right: 0%;
+    padding-right: 0%;
+    padding-top: 5px;
+}
+
+/*Adding A Drop Shadow To The Images In The Product Page and Setting The Padding of Them*/
+.products img {
+    -webkit-filter: drop-shadow(-40px -20px 2px rgb(50, 50, 50));
+    filter: drop-shadow(-40px -20px 2px rgb(50, 50, 50));
+    padding: 6% 4%;
+}
+
+/*Adding A Hover Element To Chnage The Drop Shadow When The Mouse is Hovering Over It*/
+.products img:hover {
+    -webkit-filter: drop-shadow(-40px -20px 0px rgb(50, 50, 50));
+    filter: drop-shadow(-40px -20px 0px rgb(50, 50, 50));
+}
+
+/*Setting The Font, Font Size and Adding A Text Shadow To The Headings On The Products Page*/
+.products h2 {
+    font-family: 'TrajanPro-Regular';
+    font-size: 35px;
+    text-shadow: -3px 3px 7px rgb(50, 50, 50);
+}
+
+/*Establishes The Font and Font Size For The E-Mail Link*/
+.email a {
+    font-family: 'UniCode';
+    font-size: 20px;
+}
