@@ -176,3 +176,57 @@ section {
     font-family: 'UniCode';
     font-size: 20px;
 }
+
+@media screen and (max-width: 1541px) {
+
+    /*Sets The Display Function As Well As Sets The Right Margin*/
+    .footerText {
+        display: inline-block;
+        margin-right: 25%;
+    }
+
+    /*Makes The Footer Text Float Right, Sets The Padding*/
+    .footerText p {
+        float: right;
+        padding-left: 0%;
+        padding-top: 7px;
+    }
+
+    /*Makes The Footer Image Float Left, Sets The Height, Margin and Padding*/
+    .footerImg img {
+        float: left;
+        height: 60px;
+        margin-left: 40%;
+        margin-right: 0%;
+        padding-right: 0%;
+        padding-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1197px) {
+
+    /*Sets The Display Function As Well As Sets The Right Margin*/
+    .footerText {
+        display: inline-block;
+        margin-right: 15%;
+    }
+
+    /*Makes The Footer Text Float Right, Sets The Padding*/
+    .footerText p {
+        float: right;
+        padding-left: 0%;
+        padding-top: 7px;
+    }
+
+    /*Makes The Footer Image Float Left, Sets The Height, Margin and Padding*/
+    .footerImg img {
+        float: left;
+        height: 60px;
+        margin-left: 40%;
+        margin-right: 0%;
+        padding-right: 0%;
+        padding-top: 5px;
+    }
+
+}
